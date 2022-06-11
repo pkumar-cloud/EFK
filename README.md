@@ -9,6 +9,8 @@ cd EFK
 kubectl create -f .
 kubectl get po -n efklog
 kubectl get svc -n efklog
-```
-Launch Kibana dashborad using one of the <worker node ip>:<kibana service node port>
+
+# Launch Kibana dashborad using one of the <worker node public ip>:<kibana service node port>
 ** Add node port to SG of worker node. Same SG is used for all worker nodes.
+```
+
