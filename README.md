@@ -2,7 +2,7 @@
 
 ```sh
 # Clone the EFK repo to K8S mgmt host
-git clone git@github.com:pndrns/EFK.git
+git clone https://github.com/pndrns/EFK.git
 
 #k8s objects to be created in this ns as per artifacts yaml file.
 kubectl create ns efklog
